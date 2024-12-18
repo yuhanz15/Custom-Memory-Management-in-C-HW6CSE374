@@ -1,2 +1,4 @@
-# Readme
-This program can collect and free memmory based on the software required, and serve the same function as malloc. (finish later)
+# Custom Memory Management in C
+This project implements a memory management system in C, focusing on efficient memory allocation, deallocation, and management. The system provides an alternative to standard memory management functions like malloc and free, offering users greater control over memory usage. It includes key features such as a custom allocator to handle memory blocks, mechanisms to detect and manage those blocks, adn methods to optimize memory utilization. 
+
+The program interacts directly with the system memory using low-level operations, allowing users to allocate and release memory dynamically. It also includes error handling to prevent issues such as memory leaks and invalid access, ensuring stability and reliability. Designed to demonstrate a deeper understanding of memory management concepts, this project showcases how custom allocators can improve performance and address specific application requirements.
